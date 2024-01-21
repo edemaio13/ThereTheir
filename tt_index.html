@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="tt_styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThereTheir.com</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Main Bootstrap Container-->
+        <div class="container container-bg">
+    
+            <!--HEADER-->
+            
+                <header>
+
+                    <h1>There their.com</h1>
+            
+                </header>
+
+            <!--END HEADER-->
+
+    <main>
+    
+        <article>
+
+            <!--THERE DIV-->
+
+                <div class="row-12" onclick="displayRandomThere()">
+
+                        <h2>There:</h2>
+
+                </div>
+
+                <div class="row-12 text-center">
+
+                    <div id="there-div" class="div-mouse-over" onclick="displayRandomThere()">
+
+                        <p id="random-there"></p>
+                        
+                        <button type="button" class="btn btn-primary" onclick="displayRandomThere()">Randomize</button>
+
+
+                    </div>
+
+                </div>
+
+            <!--END THERE DIV-->
+
+            <!--THEIR DIV-->
+
+                <div class="row-12" onclick="displayRandomTheir()">
+
+                    <h2>Their:</h2>
+
+                </div>
+
+                <div class="row-12 text-center">
+
+                    <div id="their-div" class="div-mouse-over" onclick="displayRandomTheir()">
+                    
+                        
+                        <p id="random-their"></p>
+                        <button type="button" class="btn btn-primary" onclick="displayRandomTheir()">Randomize</button>
+
+                    </div>
+
+                </div>
+
+            <!--END THEIR DIV-->
+
+
+            <!--THEY'RE DIV-->
+
+                <div class="row-12" onclick="displayRandomTheyre()">
+
+                    <h2>They're <small>(hint: they are):</small></h2>
+
+                </div>
+
+                <div class="row-12 text-center">
+
+                    <div id="theyre-div" onclick="displayRandomTheyre()"">
+
+                        
+                        <p id="random-theyre" class="div-mouse-over"></p>
+                        <button type="button" class="btn btn-primary" onclick="displayRandomTheyre()">Randomize</button>
+
+                    </div>
+
+                </div>
+
+            <!--END THEY'RE DIV-->
+
+
+        </article>
+
+
+    </main>
+
+    
+        <!--FOOTER-->
+
+
+            <footer class="text-center">
+
+                <small>&copy; <span id="year"></span> | ThereTheir.com</small>
+
+            </footer>
+
+        <!--END FOOTER-->
+
+    
+
+    </div><!--END MAIN BOOTSTRAP DIV-->
+
+
+<!--SCRIPTS-->   
+
+    <!--FOOTER YEAR-->
+        <script>
+            // Get the current year and update the year element
+            var year = new Date().getFullYear();
+            document.getElementById("year").textContent = year;
+        </script>
+
+
+    <!--RANDOM TEXT SCRIPT-->
+        <script src="randomtext.js"></script>
+
+    <!--Bootstrap, Popper, and Jquery-->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+
+<!--END SCRIPTS-->
+
+</body>
+</html>

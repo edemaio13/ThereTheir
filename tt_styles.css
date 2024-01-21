@@ -1,0 +1,98 @@
+
+
+header {
+
+    padding: 10px;
+    font-style:italic;
+    font-family: 'Shadows Into Light', cursive, sans-serif, arial, helvetica;
+    
+}
+
+header h1 {
+
+    font-weight: 900;
+    
+}
+
+.container-bg {
+
+    background-image: url('images/back_note.jpg');
+
+}
+
+body { 
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #5d3864 !important;
+    background: linear-gradient(to bottom, #5d3864, #97729e);
+
+}
+
+footer {
+
+    
+    margin: 10em 0em 0em 0em;
+    padding: 1em;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+p {
+    
+    font-size: 1.3em;
+    user-select: none;
+    
+}
+
+h1 {
+    
+    margin: 0em 0em 0em 3em;
+    letter-spacing: .1em;
+    padding: .4em 0em 1em 0em;
+    
+}
+
+h2 {
+    margin: .3em 0em 0em 4em;
+    font-family: 'Shadows Into Light', cursive, sans-serif, arial, helvetica;
+    font-weight: 900 !important;
+    user-select: none;
+}
+
+
+div {
+    
+    margin: 2em 0em;
+    font-weight: 500;
+    /*padding: 3em;*/
+
+}
+
+#there-div {
+
+    /*background-color: #b2df94;*/
+    /*background: linear-gradient(to bottom, #f9e6fd, #97729e);*/
+    margin-left: 12em;
+    
+}
+
+#their-div {
+
+    margin-left: 12em;
+    
+}
+
+#theyre-div {
+
+    margin-left: 12em;
+
+    
+}
+
+
+.div-mouse-over:hover {
+
+    /*outline: 5px solid rgb(71, 31, 59);*/
+
+
+}
+
